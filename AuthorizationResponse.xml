@@ -1,0 +1,10 @@
+<!-- $top$ -->
+Content-type: text/xml
+Expires: 0
+
+<authorization>
+    <success><!-- %success% --></success>
+<!-- $detail$ -->
+    <statistic stattype="<!-- %StatType% -->" statseq="<!-- %StatSeq% -->" shortdesc="<!-- %ShortDesc% -->" longdesc="<!-- %LongDesc% -->" statamount="<!-- %statamount% -->" idpqstsmst="<!-- %idpqstsmst% -->"></statistic>
+<!-- $end$ -->
+</authorization>

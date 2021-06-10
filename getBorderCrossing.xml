@@ -1,0 +1,9 @@
+<!-- $top$ -->
+Content-type: text/xml
+Expires: 0
+
+<Response>
+<!-- $detail$ -->
+<bordercrossing country="<!-- %country% -->" state="<!-- %state% -->" cityid="<!-- %cityid% -->" cityname="<!-- %cityname% -->" zipid="<!-- %zipid% -->" zipcode="<!-- %zipcode% -->"></bordercrossing>
+<!-- $bot$ -->
+</Response>

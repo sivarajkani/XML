@@ -1,0 +1,64 @@
+
+{
+    "autorityLevel":"1",
+    "save":"true",
+    "email":"false",
+    "massUpdate":"false",
+    "export":"false",
+    "publish":"false",
+    "audit":"false",
+    "quoteType":[
+        {"type":"I",
+         "workFlow":[
+             {"statusCode":"",
+              "select":"true",
+              "changeThis":"false"},
+
+             {"statusCode":"Q",
+              "select":"false",
+              "changeThis":"false"},
+
+             {"statusCode":"O",
+              "select":"false",
+              "changeThis":"false"},
+
+             {"statusCode":"C",
+              "select":"false",
+              "changeThis":"false"},
+
+             {"statusCode":"M",
+              "select":"false",
+              "changeThis":"false"},
+             
+             {"statusCode":"T",
+              "select":"false",
+              "changeThis":"false"},
+
+             {"statusCode":"S",
+              "select":"false",
+              "changeThis":"false"},
+
+             {"statusCode":"P",
+              "select":"false",
+              "changeThis":"false"},
+
+             {"statusCode":"Z",
+              "select":"false",
+              "changeThis":"false"},
+
+             {"statusCode":"X",
+              "select":"false",
+              "changeThis":"false"}
+         ],
+         "daysEffective":"",
+         "daysBackdate":"",
+         "daysExtend":"",
+         "belowScale":"",
+         "belowFuelSC":"",
+         "belowScaleInTerr":"",
+         "belowScaleOutTerr":"",
+         "belowFuelSCInTerr":"",
+         "belowFuelSCOutTerr":""
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "columns":[
+    {
+        "vol_field_name":"cust_prop_vol",
+        "uom_field_name":"cust_prop_uom"
+    },
+        
+    {
+        "vol_field_name":"cust_tar_rate",
+        "uom_field_name":"cust_tar_uom"
+    },
+        
+    {
+        "vol_field_name":"xlft_prop_vol",
+        "uom_field_name":"xlft_prop_uom"
+    },
+    
+    {
+        "vol_field_name":"xlft_awrd_vol",
+        "uom_field_name":"xlft_awrd_uom"
+    },
+        
+    {
+        "vol_field_name":"xpol_prop_vol",
+        "uom_field_name":"xpol_prop_uom"
+    }
+        
+   ]
+    
+}
+

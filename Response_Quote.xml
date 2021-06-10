@@ -1,0 +1,29 @@
+<!-- $top$ -->
+Content-type: text/xml
+Expires: 0
+
+<Quote>
+  <action><!-- %action% --></action>
+  <success><!-- %success% --></success>
+<!-- $rateddate$ -->
+  <rateddate><!-- %rateddate% --></rateddate>  
+<!-- $error$ -->
+  <Error field="<!-- %field% -->" value="<!-- %value% -->" message="<!-- %message% -->"></Error>
+<!-- $header$ -->
+	<header idpqheader="<!-- %idpqheader% -->" status="<!-- %status% -->" cusprefix="<!-- %cusprefix% -->" cusbase="<!-- %cusbase% -->" cussuffix="<!-- %cussuffix% -->" contactid="<!-- %contactid% -->" custid="<!-- %custid% -->" quotenum="<!-- %quotenum% -->" idpqcontme="<!-- %idpqcontme% -->" adduser="<!-- %adduser% -->" addtime="<!-- %addtime% -->" chguser="<!-- %chguser% -->" chgtime="<!-- %chgtime% -->" />
+<!-- $detail$ -->
+	<detail idpqlandtl="<!-- %idpqlandtl% -->" lanenumber="<!-- %lanenumber% -->" quotetype="<!-- %quotetype% -->" effdate="<!-- %effdate% -->" expdate="<!-- %expdate% -->" rateddate="<!-- %rateddate% -->" approvdsts="<!-- %approvdsts% -->" approvddat="<!-- %approvddat% -->" approvdusr="<!-- %approvdusr% -->" statorig="<!-- %statorig% -->" statdest="<!-- %statdest% -->" statbegdt="<!-- %statbegdt% -->" statenddt="<!-- %statenddt% -->" custrefno="<!-- %custrefno% -->" auditdate="<!-- %auditdate% -->" auditreslt="<!-- %auditreslt% -->" adduser="<!-- %adduser% -->" addtime="<!-- %addtime% -->" chguser="<!-- %chguser% -->" chgtime="<!-- %chgtime% -->" />
+<!-- $geography$ -->
+	<geography idpqlangeo="<!-- %idpqlangeo% -->" segment="<!-- %segment% -->" sequence="<!-- %sequence% -->" geotype="<!-- %geotype% -->" pointsrc="<!-- %pointsrc% -->" idcity="<!-- %idcity% -->" cityname="<!-- %cityname% -->" idcounty="<!-- %idcounty% -->" countyname="<!-- %countyname% -->" state="<!-- %state% -->" country="<!-- %country% -->" idzip="<!-- %idzip% -->" zipcode="<!-- %zipcode% -->" zone="<!-- %zone% -->" idregion="<!-- %idregion% -->" region="<!-- %region% -->" applycarr="<!-- %applycarr% -->" adduser="<!-- %adduser% -->" addtime="<!-- %addtime% -->" chguser="<!-- %chguser% -->" chgtime="<!-- %chgtime% -->" /> 
+<!-- $condition$ -->
+	<condition idpqcond="<!-- %idpqcond% -->" codetype="<!-- %codetype% -->" code="<!-- %code% -->" qualifier1="<!-- %qualifier1% -->" qualifier2="<!-- %qualifier2% -->" exclcond="<!-- %exclcond% -->"  adduser="<!-- %adduser% -->" addtime="<!-- %addtime% -->" chguser="<!-- %chguser% -->" chgtime="<!-- %chgtime% -->" />
+<!-- $charge$ -->  
+	<charge sequence="<!-- %sequence% -->" recordid="<!-- %idpqlanchr% -->" segment="<!-- %segment% -->" linecodetype="<!-- %linecodetype% -->" linecode="<!-- %linecode% -->" description="<!-- %description% -->" rmssection="<!-- %rmssection% -->" rmsitem="<!-- %rmsitem% -->" rmsqty="<!-- %rmsqty% -->" rmsuom="<!-- %rmsuom% -->" rmsrate="<!-- %rmsrate% -->" rmsamount="<!-- %rmsamount% -->" rmsminchg="<!-- %rmsminchg% -->" rmspubrpm="<!-- %rmspubrpm% -->" propqty="<!-- %propqty% -->" proprate="<!-- %proprate% -->" propuom="<!-- %propuom% -->"  propamt="<!-- %propamt% -->" pricedminchr="<!-- %pricedminchr% -->" exclchrg="<!-- %exclchrg% -->" adjustpct="<!-- %adjustpct% -->" pricingid="<!-- %pricingid% -->" pricingorig="<!-- %pricingorig% -->" pricingdest="<!-- %pricingdest% -->" scaleqty="<!-- %scaleqty% -->" scaleuom="<!-- %scaleuom% -->" scalerate="<!-- %scalerate% -->" scaleamt="<!-- %scaleamt% -->" scaleminchr="<!-- %scaleminchr% -->" scaleprcid="<!-- %scaleprcid% -->" scaleorig="<!-- %scaleorig% -->" scaledest="<!-- %scaledest% -->"  adduser="<!-- %adduser% -->" addtime="<!-- %addtime% -->" chguser="<!-- %chguser% -->" chgtime="<!-- %chgtime% -->" /> 
+<!-- $notes$ -->
+	<notes 	cmtkey="<!-- %cmtkey% -->" cmtseq="<!-- %cmtseq% -->" cmtkeytyp="<!-- %cmtkeytyp% -->" cmtaplcod="<!-- %cmtaplcod% -->" cmttype="<!-- %cmttype% -->" comment="<!-- %comment% -->" commentlength="<!-- %commentlength% -->" entusr="<!-- %entusr% -->" enttim="<!-- %enttim% -->" entdat="<!-- %entdat% -->" chgusr="<!-- %chgusr% -->" chgtim="<!-- %chgtim% -->" chgdat="<!-- %chgdat% -->" />
+<!-- $loads$ -->
+    <loads loadno="<!-- %loadno% -->" printedorrated="<!-- %printedorrated% -->"/>
+<!-- $user$ -->    
+<User usertype="<!-- %usertype% -->" userprofile="<!-- %userprofile% -->"/>    
+<!-- $bottom$ -->  
+</Quote>

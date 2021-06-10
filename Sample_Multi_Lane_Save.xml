@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Quote>
+	<header idpqheader="0" status="A" cusprefix="X" cusbase="00687"
+		cussuffix="000" contactid="0000594423" custid="0" quotenum=""
+		idpqcontme="4" />
+	<lane>
+		<detail idpqlandtl="0" lanenumber="0" quotetype="I" effdate="2015-01-01"
+			expdate="2015-12-31" rateddate="0001-01-01-00.00.00.000000"
+			approvdsts="" approvddat="0001-01-01-00.00.00.000000" approvdusr=""
+			statorig="MOJOP" statdest="WASEA" statbegdt="2014-01-01" statenddt="2014-06-30" custrefno="1"/>
+		<geography idpqlangeo="0" segment="0" sequence="1" geotype="ORG"
+			pointsrc="CL" idcity="25243" cityname="JOPLIN" idcounty="1"
+			countyname="" state="MO" country="US" idzip="0" zipcode="64802" zone="MOJOP"
+			idregion="0" applycarr="0" />
+		<geography idpqlangeo="0" segment="0" sequence="2" geotype="DST"
+			pointsrc="CL" idcity="51363" cityname="SEATTLE" idcounty="1"
+			countyname="" state="WA" country="US" idzip="0" zipcode="98134" zone="WASEA"
+			idregion="0" applycarr="0" />
+	</lane>
+	<lane>
+		<detail idpqlandtl="0" lanenumber="0" quotetype="I" effdate="2015-01-01"
+			expdate="2015-12-31" rateddate="0001-01-01-00.00.00.00000"
+			approvdsts="" approvddat="0001-01-01-00.00.00.000000" approvdusr=""
+			statorig="OKTUL" statdest="CODEN" statbegdt="2014-01-01" statenddt="2014-06-30" custrefno="2" />
+		<geography idpqlangeo="946" segment="0" sequence="1"
+			geotype="ORG" pointsrc="CL" idcity="37431" cityname="TULSA" idcounty="1"
+			countyname="" state="OK" country="US" idzip="0" zipcode="74103" zone="OKTUL"
+			idregion="0" applycarr="0" />
+		<geography idpqlangeo="947" segment="0" sequence="2"
+			geotype="DST" pointsrc="CL" idcity="5751" cityname="DENVER" idcounty="1"
+			countyname="" state="CO" country="US" idzip="0" zipcode="80201" zone="CODEN"
+			idregion="0" applycarr="0" />
+	</lane>
+</Quote>

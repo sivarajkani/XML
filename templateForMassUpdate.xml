@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MassUpdate>
+	<landtl idpqheader="740" quotetype="B" effdate="2015-03-02" expdate="2015-03-31" linehaulrate="1.75" linehauluom="MLS"/>
+	<geo> type="ORG" source="CL" idcity="25243" cityname="JOPLIN" idcounty="1" countyname="" state="MO" country="US" idzip="0" zipcode="64802" zone="MOJOP" region="0" </geo>
+	<geo> type="BRD" source="CL" idcity="46773" cityname="LAREDO" idcounty="1" countyname="" state="TX" country="US" idzip="30461" zipcode="78040" zone="" region="0" </geo>
+	<geo> type="DST" source="CL" idcity="63786" cityname="MEXICO CITY" idcounty="1" countyname="" state="DF" country="MX" idzip="0" zipcode="" zone="DF" region="0" </geo>
+	<cond code="190" codetype="A" />
+	<cond code="105" codetype="A" />
+	<laneid  idpqlandtl="3910" />
+	<laneid  idpqlandtl="3912" />
+	<laneid  idpqlandtl="3914" />
+	<landid  idpqlandtl="3923" />
+</MassUpdate>

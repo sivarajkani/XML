@@ -1,0 +1,91 @@
+{
+"list": [
+      {
+        "id": 22901,
+        "group": "rate",
+        "scac": "cust",
+        "valuename": "cust_tar_rate",
+        "uomname": "cust_tar_uom",
+        "value": 1.76,
+        "uom": "P",
+        "uomdesc": "Mile"
+      },
+      {
+        "id": 22901,
+        "group": "prop",
+        "scac": "cust",
+        "valuename": "cust_prop_vol",
+        "uomname": "cust_prop_uom",
+        "yearvalue": 300,
+        "value": 300,
+        "uom": "Y",
+        "uomdesc": "Year"
+      },
+      {
+        "id": 22901,
+        "group": "prop",
+        "scac": "xflt",
+        "valuename": "xflt_prop_vol",
+        "uomname": "xflt_prop_uom",
+        "yearvalue": 250,
+        "value": 250,
+        "uom": "Y",
+        "uomdesc": "Year"
+      },
+      {
+        "id": 22901,
+        "group": "prop",
+        "scac": "xpol",
+        "valuename": "xpol_prop_vol",
+        "uomname": "xpol_prop_uom",
+        "yearvalue": 50,
+        "value": 50,
+        "uom": "Y",
+        "uomdesc": "Year"
+      },
+      {
+        "id": 22901,
+        "group": "awrd",
+        "scac": "xflt",
+        "valuename": "xflt_awrd_vol",
+        "uomname": "xflt_awrd_uom",
+        "yearvalue": 250,
+        "value": 250,
+        "uom": "Y",
+        "uomdesc": "Year"
+      },
+      {
+        "id": 22901,
+        "group": "awrd",
+        "scac": "xpol",
+        "valuename": "xpol_awrd_vol",
+        "uomname": "xpol_awrd_uom",
+        "yearvalue": 50,
+        "value": 50,
+        "uom": "Y",
+        "uomdesc": "Year"
+      },
+      {
+        "id": 22901,
+        "group": "comm",
+        "scac": "xflt",
+        "valuename": "xflt_comm_vol",
+        "uomname": "xflt_comm_uom",
+        "yearvalue": 250,
+        "value": 250,
+        "uom": "Y",
+        "uomdesc": "Year"
+      },
+      {
+        "id": 22901,
+        "group": "comm",
+        "scac": "xpol",
+        "valuename": "xpol_comm_vol",
+        "uomname": "xpol_comm_uom",
+        "yearvalue": 50,
+        "value": 50,
+        "uom": "Y",
+        "uomdesc": "Year"
+      }
+    ]
+}

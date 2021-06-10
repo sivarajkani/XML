@@ -1,0 +1,13 @@
+<!-- $top$ -->
+Content-type: text/xml
+Expires: 0
+
+<navigation>
+    <quotenum><!-- %quotenum% --></quotenum>
+    <fromlane><!-- %fromlane% --></fromlane>
+    <message><!-- %message% --></message>
+    <first><!-- %first% --></first>  
+    <last><!-- %last% --></last>  
+    <previous><!-- %previous% --></previous>
+    <next><!-- %next% --></next>                  
+</navigation>

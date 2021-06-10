@@ -1,0 +1,10 @@
+<!-- $top$ -->
+Content-type: text/xml
+Expires: 0
+
+<response>
+    <success><!-- %success% --></success>
+<!-- $detail$ -->
+    <auth name="<!-- %name% -->" value="<!-- %value% -->"></auth>
+<!-- $end$ -->
+</response>

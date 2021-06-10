@@ -1,0 +1,117 @@
+{
+  "response": {
+    "lane": [
+      {
+        "id": "0",
+        "group": [
+          {
+            "name": "rate",
+            "data": {
+              "sac": "cust",
+              "name": "cust_tar_rate",
+              "uomname": "cust_tar_uom",
+              "yearvalue": "",
+              "value": "",
+              "isnull": '1',
+              "uom": "M",
+              "uomdesc": "Mile",
+              "uomconv": "1"
+            }
+          },
+          {
+            "name": "prop",
+            "data": [
+              {
+                "scac": "cust",
+                "valuename": "cust_prop_vol",
+                "uomname": "cust_prop_uom",
+                "yearvalue": "",
+                "value": "",
+                "isnull": '1',
+                "uom": "M",
+                "uomdesc": "Month",
+                "uomconv": "12"
+              },
+              {
+                "scac": "xlft",
+                "valuename": "xlft_prop_vol",
+                "uomname": "xlft_prop_uom",
+                "yearvalue": "",
+                "value": "",
+                "isnull": '1',
+                "uom": "M",
+                "uomdesc": "Month",
+                "uomconv": "12"
+              },
+              {
+                "scac": "xpol",
+                "valuename": "xpol_prop_vol",
+                "uomname": "xpol_prop_uom",
+                "yearvalue": "",
+                "value": "",
+                "isnull": '1',
+                "uom": "M",
+                "uomdesc": "Month",
+                "uomconv": "12"
+              }
+            ]
+          },
+          {
+            "name": "awrd",
+            "data": [
+              {
+                "scac": "xlft",
+                "valuename": "xlft_awrd_vol",
+                "uomname": "xlft_awrd_uom",
+                "yearvalue": "",
+                "value": "",
+                "isnull": '1',
+                "uom": "M",
+                "uomdesc": "Month",
+                "uomconv": "12"
+              },
+              {
+                "scac": "xpol",
+                "valuename": "xpol_awrd_vol",
+                "uomname": "xpol_awrd_uom",
+                "yearvalue": "",
+                "value": "",
+                "isnull": '1',
+                "uom": "M",
+                "uomdesc": "Month",
+                "uomconv": "12"
+              }
+            ]
+          },
+          {
+            "name": "comm",
+            "data": [
+              {
+                "scac": "xlft",
+                "name": "xlft_comm_vol",
+                "uomname": "xlft_comm_uom",
+                "yearvalue": "",
+                "value": "",
+                "isnull": '1',
+                "uom": "M",
+                "uomdesc": "Month",
+                "uomconv": "12"
+              },
+              {
+                "scac": "xpol",
+                "name": "xpol_comm_vol",
+                "uomname": "xpol_comm_uom",
+                "yearvalue": "",
+                "value": "",
+                "isnull": '1',
+                "uom": "M",
+                "uomdesc": "Month",
+                "uomconv": "12"
+              }
+            ]
+          }
+        ]
+      },
+    ]
+  }
+}

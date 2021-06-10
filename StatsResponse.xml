@@ -1,0 +1,11 @@
+<!-- $top$ -->
+Content-type: text/xml
+Expires: 0
+
+<stats>
+    <success><!-- %success% --></success>
+    <statinfo originzone="<!-- %originzone% -->" destinzone="<!-- %destinzone% -->" begdate="<!-- %begdate% -->" enddate="<!-- %enddate% -->"></statinfo>
+<!-- $detail$ -->
+    <statistic idpqstsmst="<!-- %idpqstsmst% -->" prigroup="<!-- %prigroup% -->" pgmkey="<!-- %pgmkey% -->" sort1="<!-- %sort1% -->" sort2="<!-- %sort2% -->" shortdesc="<!-- %shortdesc% -->" datatype="<!-- %datatype% -->" decprec="<!-- %decprec% -->" fulldesc="<!-- %fulldesc% -->" statvalue="<!-- %statvalue% -->"></statistic>
+<!-- $end$ -->
+</stats>

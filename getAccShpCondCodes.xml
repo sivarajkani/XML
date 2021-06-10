@@ -1,0 +1,9 @@
+<!-- $top$ -->
+Content-type: text/xml
+Expires: 0
+
+<Response>
+<!-- $detail$ -->
+<accshpcode rpctyp="<!-- %rpctyp% -->" rpcode="<!-- %rpcode% -->" rpcdsc="<!-- %rpcdsc% -->" ></accshpcode>
+<!-- $bot$ -->
+</Response>

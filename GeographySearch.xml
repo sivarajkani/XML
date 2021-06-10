@@ -1,0 +1,9 @@
+<!-- $top$ -->
+Content-type: text/xml
+Expires: 0
+
+<Response>
+<!-- $detail$ -->
+<geography seq="<!-- %seq% -->" source="<!-- %source% -->" sourcename="<!-- %srcname% -->" country="<!-- %country% -->" state="<!-- %state% -->" cityid="<!-- %cityid% -->" cityname="<!-- %cityname% -->" countyid="<!-- %countyid% -->" countyname="<!-- %countyname% -->" zipid="<!-- %zipid% -->" zipcode="<!-- %zipcode% -->" zone="<!-- %zone% -->"></geography>
+<!-- $end$ -->  
+</Response>

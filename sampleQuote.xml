@@ -1,0 +1,1448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=utf-8
+Server:
+Microsoft-IIS/7.5
+X-Powered-By: ASP.NET
+Date: Mon, 09 Jun 2014 21:55:34
+GMT
+Content-Length: 41564
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body>
+		<RMLoadRateResponse xmlns="http://tempuri.org/">
+			<RMLoadRateResult>
+				<xs:schema id="UIPricing" targetNamespace="http://tempuri.org/UIPricing.xsd"
+					attributeFormDefault="qualified" elementFormDefault="qualified"
+					xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:mstns="http://tempuri.org/UIPricing.xsd"
+					xmlns="http://tempuri.org/UIPricing.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+					<xs:element name="UIPricing" msdata:IsDataSet="true"
+						msdata:UseCurrentLocale="true" msdata:EnforceConstraints="False">
+						<xs:complexType>
+							<xs:choice minOccurs="0" maxOccurs="unbounded">
+								<xs:element name="PricingNonAlternation">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="PricingNonAlternationid"
+												msdata:ReadOnly="true" msdata:AutoIncrement="true"
+												msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1"
+												type="xs:long" />
+											<xs:element name="Pricingid" type="xs:long" />
+											<xs:element name="DoesNotAlternateWithTypeid"
+												type="xs:long" minOccurs="0" />
+											<xs:element name="AlternationValue" type="xs:short" />
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="PricingAccessorials">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="PricingAccessorialsid"
+												msdata:ReadOnly="true" msdata:AutoIncrement="true"
+												msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1"
+												type="xs:long" />
+											<xs:element name="Pricingid" type="xs:long" />
+											<xs:element name="LineNumber" type="xs:short" />
+											<xs:element name="UOMid" type="xs:long" />
+											<xs:element name="AccessorialCodeid" type="xs:long" />
+											<xs:element name="Instance" type="xs:short"
+												default="0" />
+											<xs:element name="AutoApply" type="xs:boolean"
+												default="false" />
+											<xs:element name="ApplyAtLevel" type="xs:short"
+												default="0" />
+											<xs:element name="IncludeInLinehaul" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="MinimumWeight" type="xs:decimal" />
+											<xs:element name="MaximumWeight" type="xs:decimal" />
+											<xs:element name="MinimumMiles" type="xs:decimal" />
+											<xs:element name="MaximumMiles" type="xs:decimal" />
+											<xs:element name="UOMMinimum" type="xs:decimal" />
+											<xs:element name="UOMMaximum" type="xs:decimal" />
+											<xs:element name="Rate" type="xs:decimal" />
+											<xs:element name="ExcessRate" type="xs:decimal" />
+											<xs:element name="MinimumCharge" type="xs:decimal" />
+											<xs:element name="FlatCharge" type="xs:decimal" />
+											<xs:element name="MaximumCharge" type="xs:decimal" />
+											<xs:element name="CurrencyCodeid" type="xs:long" />
+											<xs:element name="AllowDeficit" type="xs:boolean"
+												default="false" />
+											<xs:element name="AllowHigherDown" type="xs:boolean"
+												default="false" />
+											<xs:element name="UseDirectMiles" type="xs:boolean"
+												default="false" />
+											<xs:element name="GP1" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP2" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP3" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP4" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP5" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP6" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP7" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP8" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP9" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP10" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP11" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP12" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP13" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP14" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP15" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="PricingCarrier">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="PricingCarrierid"
+												msdata:ReadOnly="true" msdata:AutoIncrement="true"
+												msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1"
+												type="xs:long" />
+											<xs:element name="Pricingid" type="xs:long" />
+											<xs:element name="CarrierProfileid" type="xs:long" />
+											<xs:element name="CarrierCode" type="xs:string"
+												minOccurs="0" />
+											<xs:element name="Name" type="xs:string"
+												minOccurs="0" />
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="PricingCarrierExclude">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="PricingCarrierExcludeid"
+												msdata:ReadOnly="true" msdata:AutoIncrement="true"
+												msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1"
+												type="xs:long" />
+											<xs:element name="Pricingid" type="xs:long" />
+											<xs:element name="CarrierProfileid" type="xs:long" />
+											<xs:element name="CarrierCode" type="xs:string"
+												minOccurs="0" />
+											<xs:element name="Name" type="xs:string"
+												minOccurs="0" />
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="PricingClient">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="PricingClientid"
+												msdata:ReadOnly="true" msdata:AutoIncrement="true"
+												msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1"
+												type="xs:long" />
+											<xs:element name="Pricingid" type="xs:long" />
+											<xs:element name="ClientProfileid" type="xs:long" />
+											<xs:element name="ClientCode" type="xs:string"
+												minOccurs="0" />
+											<xs:element name="Name" type="xs:string"
+												minOccurs="0" />
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="PricingClientExclude">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="PricingClientExcludeid"
+												msdata:ReadOnly="true" msdata:AutoIncrement="true"
+												msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1"
+												type="xs:long" />
+											<xs:element name="Pricingid" type="xs:long" />
+											<xs:element name="ClientProfileid" type="xs:long" />
+											<xs:element name="ClientCode" type="xs:string"
+												minOccurs="0" />
+											<xs:element name="Name" type="xs:string"
+												minOccurs="0" />
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="PricingCommodity">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="PricingCommodityid"
+												msdata:ReadOnly="true" msdata:AutoIncrement="true"
+												msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1"
+												type="xs:long" />
+											<xs:element name="Pricingid" type="xs:long" />
+											<xs:element name="LowCommodityCode" type="xs:decimal" />
+											<xs:element name="HighCommodityCode" type="xs:decimal" />
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="PricingConstraint">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="PricingConstraintid"
+												msdata:ReadOnly="true" msdata:AutoIncrement="true"
+												msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1"
+												type="xs:long" />
+											<xs:element name="Pricingid" type="xs:long" />
+											<xs:element name="ConstraintProfileid" type="xs:long" />
+											<xs:element name="ConstraintOperator">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="15" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="ConstraintValue">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="ConstraintValueRangeHigh"
+												default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="RateDoesNotApply" type="xs:boolean" />
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="PricingDiscount">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="PricingDiscountid"
+												msdata:ReadOnly="true" msdata:AutoIncrement="true"
+												msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1"
+												type="xs:long" />
+											<xs:element name="Pricingid" type="xs:long" />
+											<xs:element name="LineNumber" type="xs:short" />
+											<xs:element name="LineType">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="10" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="MinimumWeight" type="xs:decimal" />
+											<xs:element name="MaximumWeight" type="xs:decimal" />
+											<xs:element name="MinimumMiles" type="xs:decimal" />
+											<xs:element name="MaximumMiles" type="xs:decimal" />
+											<xs:element name="Rate" type="xs:decimal" />
+											<xs:element name="StopAtWeight" type="xs:decimal" />
+											<xs:element name="AllowDeficit" type="xs:boolean" />
+											<xs:element name="AllowHigherDown" type="xs:boolean" />
+											<xs:element name="SingleJointLine">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="1" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="UseDirectMiles" type="xs:boolean" />
+											<xs:element name="GP1" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP2" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP3" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP4" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP5" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP6" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP7" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP8" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP9" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP10" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP11" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP12" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP13" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP14" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP15" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="PricingFreightTerms">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="PricingFreightTermsid"
+												msdata:ReadOnly="true" msdata:AutoIncrement="true"
+												msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1"
+												type="xs:long" />
+											<xs:element name="Pricingid" type="xs:long" />
+											<xs:element name="FreightTermsid" type="xs:long" />
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="PricingGeography">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="PricingGeographyid"
+												msdata:ReadOnly="true" msdata:AutoIncrement="true"
+												msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1"
+												type="xs:long" />
+											<xs:element name="Pricingid" type="xs:long" />
+											<xs:element name="GeographyType">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="10" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="LocationCodesid" type="xs:long"
+												minOccurs="0" />
+											<xs:element name="City">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="120" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="State">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="10" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="Zip">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="15" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="County" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="120" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="SPLC" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="15" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="Country">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="10" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="SourceRegionid" type="xs:long"
+												minOccurs="0" />
+											<xs:element name="GeoPrecedence" type="xs:short" />
+											<xs:element name="UISourceRegionName" type="xs:string"
+												default="" minOccurs="0" />
+											<xs:element name="Code" type="xs:string"
+												minOccurs="0" />
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="PricingGeographyExclude">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="PricingGeographyExcludeid"
+												msdata:ReadOnly="true" msdata:AutoIncrement="true"
+												msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1"
+												type="xs:long" />
+											<xs:element name="Pricingid" type="xs:long" />
+											<xs:element name="GeographyType">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="10" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="LocationCodesid" type="xs:long"
+												minOccurs="0" />
+											<xs:element name="City" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="120" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="State" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="10" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="Zip" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="15" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="County" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="120" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="SPLC" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="15" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="Country" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="10" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="SourceRegionid" type="xs:long"
+												minOccurs="0" />
+											<xs:element name="GeoPrecedence" type="xs:short" />
+											<xs:element name="UISourceRegionName" type="xs:string"
+												default="" minOccurs="0" />
+											<xs:element name="Code" type="xs:string"
+												minOccurs="0" />
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="PricingLinehaul">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="PricingLinehaulid"
+												msdata:ReadOnly="true" msdata:AutoIncrement="true"
+												msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1"
+												type="xs:long" />
+											<xs:element name="Pricingid" type="xs:long" />
+											<xs:element name="LineNumber" type="xs:short" />
+											<xs:element name="UOMid" type="xs:long" />
+											<xs:element name="AccessorialCodeid" type="xs:long"
+												minOccurs="0" />
+											<xs:element name="Instance" type="xs:short"
+												default="0" />
+											<xs:element name="AutoApply" type="xs:boolean"
+												default="false" />
+											<xs:element name="ApplyAtLevel" type="xs:short"
+												default="0" />
+											<xs:element name="IncludeInLinehaul" default="&lt;DBNull.Value&gt;">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="MinimumWeight" type="xs:decimal" />
+											<xs:element name="MaximumWeight" type="xs:decimal" />
+											<xs:element name="MinimumMiles" type="xs:decimal" />
+											<xs:element name="MaximumMiles" type="xs:decimal" />
+											<xs:element name="UOMMinimum" type="xs:decimal" />
+											<xs:element name="UOMMaximum" type="xs:decimal" />
+											<xs:element name="Rate" type="xs:decimal" />
+											<xs:element name="ExcessRate" type="xs:decimal" />
+											<xs:element name="MinimumCharge" type="xs:decimal" />
+											<xs:element name="FlatCharge" type="xs:decimal" />
+											<xs:element name="MaximumCharge" type="xs:decimal" />
+											<xs:element name="CurrencyCodeid" type="xs:long" />
+											<xs:element name="AllowDeficit" type="xs:boolean"
+												default="false" />
+											<xs:element name="AllowHigherDown" type="xs:boolean"
+												default="false" />
+											<xs:element name="UseDirectMiles" type="xs:boolean"
+												default="false" />
+											<xs:element name="GP1" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP2" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP3" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP4" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP5" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP6" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP7" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP8" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP9" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP10" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP11" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP12" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP13" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP14" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP15" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="Pricing">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="Pricingid" msdata:ReadOnly="true"
+												msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1"
+												msdata:AutoIncrementStep="-1" type="xs:long" />
+											<xs:element name="PricingTypesid" type="xs:long" />
+											<xs:element name="ReversibleFlag" type="xs:boolean" />
+											<xs:element name="EffectiveDate"
+												msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+											<xs:element name="ExpirationDate"
+												msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+											<xs:element name="InterIntra">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="5" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="MaximumWeight" type="xs:decimal" />
+											<xs:element name="UseDimWeight" type="xs:boolean" />
+											<xs:element name="DimWeightFactor" type="xs:decimal" />
+											<xs:element name="MixShipPct" type="xs:decimal" />
+											<xs:element name="Tariff">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="20" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="ForceEffectiveDate"
+												msdata:DateTimeMode="Unspecified" type="xs:dateTime"
+												minOccurs="0" />
+											<xs:element name="CurrencyExchtoUse">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="1" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="MileageSourceid" type="xs:long" />
+											<xs:element name="AuthorityPublisher">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="20" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="AuthorityRelease">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="20" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="AuthoritySection">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="20" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="AuthorityItem">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="20" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="AuthorityNotes">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="2147483647" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="AuthorityEffectiveDate"
+												msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+											<xs:element name="AuthorityExpirationDate"
+												msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+											<xs:element name="RoundTripFlag" type="xs:boolean" />
+											<xs:element name="StopoffsAllowedFlag" type="xs:boolean" />
+											<xs:element name="UseHighPricelineFlag" type="xs:boolean" />
+											<xs:element name="AllowanceRate" type="xs:decimal" />
+											<xs:element name="AllowancePer">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="6" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="SurchargeRate" type="xs:decimal" />
+											<xs:element name="SurchargePer">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="6" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="Notes">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="2147483647" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP1">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP2">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP3">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP4">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP5">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP6">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP7">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP8">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP9">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP10">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP11">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP12">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP13">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP14">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="GP15">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="PublishingTemplatesid" type="xs:long"
+												minOccurs="0" />
+											<xs:element name="GeoOrigPrecedenceOverride" type="xs:short" />
+											<xs:element name="GeoDestPrecedenceOverride" type="xs:short" />
+											<xs:element name="EMActiveFlag" type="xs:boolean" />
+											<xs:element name="EMNbrFreeMiles" type="xs:decimal" />
+											<xs:element name="EMPctCalcFlag">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="1" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="EMPctFreeMiles" type="xs:decimal" />
+											<xs:element name="EMRatePerMile" type="xs:decimal" />
+											<xs:element name="EMDivideLHExtFlag" type="xs:boolean" />
+											<xs:element name="EMMinRateDiv" type="xs:decimal" />
+											<xs:element name="EMMaxRateDiv" type="xs:decimal" />
+											<xs:element name="EntryUser">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="EntryDate" type="xs:dateTime" />
+											<xs:element name="LastModUser">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="LastModDate" type="xs:dateTime" />
+											<xs:element name="LastUpdate" type="xs:long" />
+											<xs:element name="PricingTypeName" type="xs:string"
+												minOccurs="0" />
+											<xs:element name="Linehaul" type="xs:boolean"
+												minOccurs="0" />
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="PricingAccConstraint">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="PricingAccConstraintid"
+												msdata:ReadOnly="true" msdata:AutoIncrement="true"
+												msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1"
+												type="xs:long" />
+											<xs:element name="PricingAccessorialsid" type="xs:long" />
+											<xs:element name="ConstraintProfileid" type="xs:long" />
+											<xs:element name="ConstraintOperator">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="15" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="ConstraintValue">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="ConstraintValueRangeHigh">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="RateDoesNotApply" type="xs:boolean" />
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="PricingDiscountConstraint">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="PricingDiscountConstraintid"
+												msdata:ReadOnly="true" msdata:AutoIncrement="true"
+												msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1"
+												type="xs:long" />
+											<xs:element name="PricingDiscountid" type="xs:long" />
+											<xs:element name="ConstraintProfileid" type="xs:long" />
+											<xs:element name="ConstraintOperator">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="15" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="ConstraintValue">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="ConstraintValueRangeHigh">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="RateDoesNotApply" type="xs:boolean" />
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="PricingDiscountException">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="PricingDiscountExceptionid"
+												msdata:ReadOnly="true" msdata:AutoIncrement="true"
+												msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1"
+												type="xs:long" />
+											<xs:element name="PricingDiscountid" type="xs:long" />
+											<xs:element name="LineNumber" type="xs:short" />
+											<xs:element name="LowClass" type="xs:short" />
+											<xs:element name="HighClass" type="xs:short" />
+											<xs:element name="CommodityListid" type="xs:long"
+												minOccurs="0" />
+											<xs:element name="AsClass" type="xs:short" />
+											<xs:element name="ClassFactor" type="xs:decimal" />
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="PricingLinehaulConstraint">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="PricingLinehaulConstraintid"
+												msdata:ReadOnly="true" msdata:AutoIncrement="true"
+												msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1"
+												type="xs:long" />
+											<xs:element name="PricingLinehaulid" type="xs:long" />
+											<xs:element name="ConstraintProfileid" type="xs:long" />
+											<xs:element name="ConstraintOperator">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="15" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="ConstraintValue">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="ConstraintValueRangeHigh">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="RateDoesNotApply" type="xs:boolean" />
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="PublishingTemplate">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="TemplateName" type="xs:string"
+												minOccurs="0" />
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+							</xs:choice>
+						</xs:complexType>
+						<xs:unique name="Constraint1" msdata:PrimaryKey="true">
+							<xs:selector xpath=".//mstns:PricingNonAlternation" />
+							<xs:field xpath="mstns:PricingNonAlternationid" />
+						</xs:unique>
+						<xs:unique name="PricingAccessorials_Constraint1"
+							msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+							<xs:selector xpath=".//mstns:PricingAccessorials" />
+							<xs:field xpath="mstns:PricingAccessorialsid" />
+						</xs:unique>
+						<xs:unique name="PricingCarrier_Constraint1"
+							msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+							<xs:selector xpath=".//mstns:PricingCarrier" />
+							<xs:field xpath="mstns:PricingCarrierid" />
+						</xs:unique>
+						<xs:unique name="PricingCarrierExclude_Constraint1"
+							msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+							<xs:selector xpath=".//mstns:PricingCarrierExclude" />
+							<xs:field xpath="mstns:PricingCarrierExcludeid" />
+						</xs:unique>
+						<xs:unique name="PricingClient_Constraint1"
+							msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+							<xs:selector xpath=".//mstns:PricingClient" />
+							<xs:field xpath="mstns:PricingClientid" />
+						</xs:unique>
+						<xs:unique name="PricingClientExclude_Constraint1"
+							msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+							<xs:selector xpath=".//mstns:PricingClientExclude" />
+							<xs:field xpath="mstns:PricingClientExcludeid" />
+						</xs:unique>
+						<xs:unique name="PricingCommodity_Constraint1"
+							msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+							<xs:selector xpath=".//mstns:PricingCommodity" />
+							<xs:field xpath="mstns:PricingCommodityid" />
+						</xs:unique>
+						<xs:unique name="PricingConstraint_Constraint1"
+							msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+							<xs:selector xpath=".//mstns:PricingConstraint" />
+							<xs:field xpath="mstns:PricingConstraintid" />
+						</xs:unique>
+						<xs:unique name="PricingDiscount_Constraint1"
+							msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+							<xs:selector xpath=".//mstns:PricingDiscount" />
+							<xs:field xpath="mstns:PricingDiscountid" />
+						</xs:unique>
+						<xs:unique name="PricingFreightTerms_Constraint1"
+							msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+							<xs:selector xpath=".//mstns:PricingFreightTerms" />
+							<xs:field xpath="mstns:PricingFreightTermsid" />
+						</xs:unique>
+						<xs:unique name="PricingGeography_Constraint1"
+							msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+							<xs:selector xpath=".//mstns:PricingGeography" />
+							<xs:field xpath="mstns:PricingGeographyid" />
+						</xs:unique>
+						<xs:unique name="PricingGeographyExclude_Constraint1"
+							msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+							<xs:selector xpath=".//mstns:PricingGeographyExclude" />
+							<xs:field xpath="mstns:PricingGeographyExcludeid" />
+						</xs:unique>
+						<xs:unique name="PricingLinehaul_Constraint1"
+							msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+							<xs:selector xpath=".//mstns:PricingLinehaul" />
+							<xs:field xpath="mstns:PricingLinehaulid" />
+						</xs:unique>
+						<xs:unique name="Pricing_Constraint1"
+							msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+							<xs:selector xpath=".//mstns:Pricing" />
+							<xs:field xpath="mstns:Pricingid" />
+						</xs:unique>
+						<xs:unique name="PricingAccConstraint_Constraint1"
+							msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+							<xs:selector xpath=".//mstns:PricingAccConstraint" />
+							<xs:field xpath="mstns:PricingAccConstraintid" />
+						</xs:unique>
+						<xs:unique name="PricingDiscountConstraint_Constraint1"
+							msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+							<xs:selector xpath=".//mstns:PricingDiscountConstraint" />
+							<xs:field xpath="mstns:PricingDiscountConstraintid" />
+						</xs:unique>
+						<xs:unique name="PricingDiscountException_Constraint1"
+							msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+							<xs:selector xpath=".//mstns:PricingDiscountException" />
+							<xs:field xpath="mstns:PricingDiscountExceptionid" />
+						</xs:unique>
+						<xs:unique name="PricingLinehaulConstraint_Constraint1"
+							msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+							<xs:selector xpath=".//mstns:PricingLinehaulConstraint" />
+							<xs:field xpath="mstns:PricingLinehaulConstraintid" />
+						</xs:unique>
+					</xs:element>
+					<xs:annotation>
+						<xs:appinfo>
+							<msdata:Relationship name="FK_PricingLinehaul_Pricing"
+								msdata:parent="Pricing" msdata:child="PricingLinehaul"
+								msdata:parentkey="Pricingid" msdata:childkey="Pricingid" />
+							<msdata:Relationship name="FK_PricingGeographyExclude_Pricing"
+								msdata:parent="Pricing" msdata:child="PricingGeographyExclude"
+								msdata:parentkey="Pricingid" msdata:childkey="Pricingid" />
+							<msdata:Relationship name="FK_PricingGeography_Pricing"
+								msdata:parent="Pricing" msdata:child="PricingGeography"
+								msdata:parentkey="Pricingid" msdata:childkey="Pricingid" />
+							<msdata:Relationship name="FK_PricingFreightTerms_Pricing"
+								msdata:parent="Pricing" msdata:child="PricingFreightTerms"
+								msdata:parentkey="Pricingid" msdata:childkey="Pricingid" />
+							<msdata:Relationship name="FK_PricingDiscount_Pricing"
+								msdata:parent="Pricing" msdata:child="PricingDiscount"
+								msdata:parentkey="Pricingid" msdata:childkey="Pricingid" />
+							<msdata:Relationship name="FK_PricingUserConstraint_Pricing"
+								msdata:parent="Pricing" msdata:child="PricingConstraint"
+								msdata:parentkey="Pricingid" msdata:childkey="Pricingid" />
+							<msdata:Relationship name="FK_PricingCommodity_Pricing"
+								msdata:parent="Pricing" msdata:child="PricingCommodity"
+								msdata:parentkey="Pricingid" msdata:childkey="Pricingid" />
+							<msdata:Relationship name="FK_PricingClientExclude_Pricing"
+								msdata:parent="Pricing" msdata:child="PricingClientExclude"
+								msdata:parentkey="Pricingid" msdata:childkey="Pricingid" />
+							<msdata:Relationship name="FK_PricingClient_Pricing"
+								msdata:parent="Pricing" msdata:child="PricingClient"
+								msdata:parentkey="Pricingid" msdata:childkey="Pricingid" />
+							<msdata:Relationship name="FK_PricingCarrierExclude_Pricing"
+								msdata:parent="Pricing" msdata:child="PricingCarrierExclude"
+								msdata:parentkey="Pricingid" msdata:childkey="Pricingid" />
+							<msdata:Relationship name="FK_PricingCarrier_Pricing"
+								msdata:parent="Pricing" msdata:child="PricingCarrier"
+								msdata:parentkey="Pricingid" msdata:childkey="Pricingid" />
+							<msdata:Relationship name="FK_PricingAccessorials_Pricing"
+								msdata:parent="Pricing" msdata:child="PricingAccessorials"
+								msdata:parentkey="Pricingid" msdata:childkey="Pricingid" />
+							<msdata:Relationship name="FK_PricingAlternation_Pricing"
+								msdata:parent="Pricing" msdata:child="PricingNonAlternation"
+								msdata:parentkey="Pricingid" msdata:childkey="Pricingid" />
+						</xs:appinfo>
+					</xs:annotation>
+				</xs:schema>
+				<diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1"
+					xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+					<UIPricing xmlns="http://tempuri.org/UIPricing.xsd">
+						<PricingCarrier diffgr:id="PricingCarrier1"
+							msdata:rowOrder="0">
+							<PricingCarrierid>54231</PricingCarrierid>
+							<Pricingid>54284</Pricingid>
+							<CarrierProfileid>85</CarrierProfileid>
+							<CarrierCode>CTRQ</CarrierCode>
+							<Name>Con-way Truckload Inc.</Name>
+						</PricingCarrier>
+						<PricingClient diffgr:id="PricingClient1"
+							msdata:rowOrder="0">
+							<PricingClientid>54297</PricingClientid>
+							<Pricingid>54284</Pricingid>
+							<ClientProfileid>1734</ClientProfileid>
+							<ClientCode>P00218</ClientCode>
+							<Name>Transportation Mgmt</Name>
+						</PricingClient>
+						<PricingCommodity diffgr:id="PricingCommodity1"
+							msdata:rowOrder="0">
+							<PricingCommodityid>54239</PricingCommodityid>
+							<Pricingid>54284</Pricingid>
+							<LowCommodityCode>2.00000000</LowCommodityCode>
+							<HighCommodityCode>9999999999.99999999</HighCommodityCode>
+						</PricingCommodity>
+						<PricingConstraint diffgr:id="PricingConstraint1"
+							msdata:rowOrder="0">
+							<PricingConstraintid>20478</PricingConstraintid>
+							<Pricingid>54284</Pricingid>
+							<ConstraintProfileid>78</ConstraintProfileid>
+							<ConstraintOperator>StringEquals</ConstraintOperator>
+							<ConstraintValue>Spot</ConstraintValue>
+							<ConstraintValueRangeHigh />
+							<RateDoesNotApply>false</RateDoesNotApply>
+						</PricingConstraint>
+						<PricingConstraint diffgr:id="PricingConstraint2"
+							msdata:rowOrder="1">
+							<PricingConstraintid>20479</PricingConstraintid>
+							<Pricingid>54284</Pricingid>
+							<ConstraintProfileid>14</ConstraintProfileid>
+							<ConstraintOperator>StringEquals</ConstraintOperator>
+							<ConstraintValue>JOPLIN,MO</ConstraintValue>
+							<ConstraintValueRangeHigh />
+							<RateDoesNotApply>false</RateDoesNotApply>
+						</PricingConstraint>
+						<PricingFreightTerms diffgr:id="PricingFreightTerms1"
+							msdata:rowOrder="0">
+							<PricingFreightTermsid>54530</PricingFreightTermsid>
+							<Pricingid>54284</Pricingid>
+							<FreightTermsid>159</FreightTermsid>
+						</PricingFreightTerms>
+						<PricingGeography diffgr:id="PricingGeography1"
+							msdata:rowOrder="0">
+							<PricingGeographyid>112191</PricingGeographyid>
+							<Pricingid>54284</Pricingid>
+							<GeographyType>ORIG</GeographyType>
+							<City>HAMMOND</City>
+							<State>IN</State>
+							<Zip />
+							<County />
+							<SPLC />
+							<Country>US</Country>
+							<GeoPrecedence>0</GeoPrecedence>
+							<UISourceRegionName />
+						</PricingGeography>
+						<PricingGeography diffgr:id="PricingGeography2"
+							msdata:rowOrder="1">
+							<PricingGeographyid>112192</PricingGeographyid>
+							<Pricingid>54284</Pricingid>
+							<GeographyType>DEST</GeographyType>
+							<City>CARROLLTON</City>
+							<State>GA</State>
+							<Zip />
+							<County />
+							<SPLC />
+							<Country>US</Country>
+							<GeoPrecedence>0</GeoPrecedence>
+							<UISourceRegionName />
+						</PricingGeography>
+						<PricingLinehaul diffgr:id="PricingLinehaul1"
+							msdata:rowOrder="0">
+							<PricingLinehaulid>51607</PricingLinehaulid>
+							<Pricingid>54284</Pricingid>
+							<LineNumber>1</LineNumber>
+							<UOMid>9</UOMid>
+							<Instance>0</Instance>
+							<AutoApply>false</AutoApply>
+							<ApplyAtLevel>0</ApplyAtLevel>
+							<IncludeInLinehaul />
+							<MinimumWeight>0.00000000</MinimumWeight>
+							<MaximumWeight>9999999999.99999999</MaximumWeight>
+							<MinimumMiles>0.00000000</MinimumMiles>
+							<MaximumMiles>9999999999.99999999</MaximumMiles>
+							<UOMMinimum>0.00000000</UOMMinimum>
+							<UOMMaximum>9999999999.99999999</UOMMaximum>
+							<Rate>1.50000000</Rate>
+							<ExcessRate>0.00000000</ExcessRate>
+							<MinimumCharge>0.0000</MinimumCharge>
+							<FlatCharge>0.0000</FlatCharge>
+							<MaximumCharge>0.0000</MaximumCharge>
+							<CurrencyCodeid>1</CurrencyCodeid>
+							<AllowDeficit>true</AllowDeficit>
+							<AllowHigherDown>true</AllowHigherDown>
+							<UseDirectMiles>false</UseDirectMiles>
+							<GP1 />
+							<GP2 />
+							<GP3 />
+							<GP4 />
+							<GP5 />
+							<GP6 />
+							<GP7 />
+							<GP8 />
+							<GP9 />
+							<GP10 />
+							<GP11 />
+							<GP12 />
+							<GP13 />
+							<GP14 />
+							<GP15 />
+						</PricingLinehaul>
+						<Pricing diffgr:id="Pricing1" msdata:rowOrder="0">
+							<Pricingid>54284</Pricingid>
+							<PricingTypesid>39</PricingTypesid>
+							<ReversibleFlag>false</ReversibleFlag>
+							<EffectiveDate>2014-03-11T00:00:00</EffectiveDate>
+							<ExpirationDate>2014-06-09T00:00:00</ExpirationDate>
+							<InterIntra>BOTH</InterIntra>
+							<MaximumWeight>9999999999.99999999</MaximumWeight>
+							<UseDimWeight>false</UseDimWeight>
+							<DimWeightFactor>0.00000000</DimWeightFactor>
+							<MixShipPct>100.00000000</MixShipPct>
+							<Tariff />
+							<CurrencyExchtoUse>F</CurrencyExchtoUse>
+							<MileageSourceid>26</MileageSourceid>
+							<AuthorityPublisher>CTRQ</AuthorityPublisher>
+							<AuthorityRelease>Transportation Mgmt</AuthorityRelease>
+							<AuthoritySection>SPOT</AuthoritySection>
+							<AuthorityItem>2014021200100005</AuthorityItem>
+							<AuthorityNotes />
+							<AuthorityEffectiveDate>2014-03-11T00:00:00
+							</AuthorityEffectiveDate>
+							<AuthorityExpirationDate>2014-06-09T00:00:00
+							</AuthorityExpirationDate>
+							<RoundTripFlag>false</RoundTripFlag>
+							<StopoffsAllowedFlag>true</StopoffsAllowedFlag>
+							<UseHighPricelineFlag>false</UseHighPricelineFlag>
+							<AllowanceRate>0.00000000</AllowanceRate>
+							<AllowancePer>CWT</AllowancePer>
+							<SurchargeRate>0.00000000</SurchargeRate>
+							<SurchargePer>CWT</SurchargePer>
+							<Notes />
+							<GP1 />
+							<GP2 />
+							<GP3 />
+							<GP4 />
+							<GP5 />
+							<GP6 />
+							<GP7 />
+							<GP8 />
+							<GP9 />
+							<GP10 />
+							<GP11 />
+							<GP12 />
+							<GP13 />
+							<GP14 />
+							<GP15 />
+							<GeoOrigPrecedenceOverride>0</GeoOrigPrecedenceOverride>
+							<GeoDestPrecedenceOverride>0</GeoDestPrecedenceOverride>
+							<EMActiveFlag>false</EMActiveFlag>
+							<EMNbrFreeMiles>0.00000000</EMNbrFreeMiles>
+							<EMPctCalcFlag>T</EMPctCalcFlag>
+							<EMPctFreeMiles>0.00000000</EMPctFreeMiles>
+							<EMRatePerMile>0.00000000</EMRatePerMile>
+							<EMDivideLHExtFlag>false</EMDivideLHExtFlag>
+							<EMMinRateDiv>0.00000000</EMMinRateDiv>
+							<EMMaxRateDiv>0.00000000</EMMaxRateDiv>
+							<EntryUser>CFIUS\swofford</EntryUser>
+							<EntryDate>2014-03-11T13:49:50.37-05:00</EntryDate>
+							<LastModUser>CFIUS\swofford</LastModUser>
+							<LastModDate>2014-03-11T13:49:50.37-05:00</LastModDate>
+							<LastUpdate>1</LastUpdate>
+							<PricingTypeName>Linehaul</PricingTypeName>
+							<Linehaul>true</Linehaul>
+						</Pricing>
+					</UIPricing>
+				</diffgr:diffgram>
+			</RMLoadRateResult>
+			<strError />
+		</RMLoadRateResponse>
+	</s:Body>
+</s:Envelope>

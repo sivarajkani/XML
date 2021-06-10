@@ -1,0 +1,233 @@
+{
+    "autorityLevel":"10",
+    "save":"true",
+    "email":"true",
+    "massUpdate":"true",
+    "export":"true",
+    "publish":"true",
+    "audit":"true",
+    "quoteType":[
+        {"type":"I",
+         "daysEffective":"",
+         "daysBackdate":"",
+         "daysExtend":"",
+         "belowScale":"",
+         "belowFuelSC":"",
+         "belowScaleInTerr":"",
+         "belowScaleOutTerr":"",
+         "belowFuelSCInTerr":"",
+         "belowFuelSCOutTerr":"",
+         "workFlow":[
+             {"statusCode":"",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"Q",
+              "select":"false",
+              "changeThis":"false"},
+
+             {"statusCode":"O",
+              "select":"false",
+              "changeThis":"false"},
+
+             {"statusCode":"C",
+              "select":"false",
+              "changeThis":"false"},
+
+             {"statusCode":"M",
+              "select":"false",
+              "changeThis":"false"},
+             {"statusCode":"T",
+              "select":"false",
+              "changeThis":"false"},
+
+             {"statusCode":"S",
+              "select":"false",
+              "changeThis":"false"},
+
+             {"statusCode":"P",
+              "select":"false",
+              "changeThis":"false"},
+
+             {"statusCode":"Z",
+              "select":"false",
+              "changeThis":"false"},
+
+             {"statusCode":"X",
+              "select":"false",
+              "changeThis":"false"}
+         ]
+         
+        },
+        {"type":"P",
+         "daysEffective":"9999",
+         "daysBackdate":"9999",
+         "daysExtend":"9999",
+         "belowScale":"100",
+         "belowFuelSC":"100",
+         "belowScaleInTerr":"0",
+         "belowScaleOutTerr":"0",
+         "belowFuelSCInTerr":"0",
+         "belowFuelSCOutTerr":"0",
+         "workFlow":[
+             {"statusCode":"",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"Q",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"O",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"C",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"M",
+              "select":"true",
+              "changeThis":"true"},
+             
+             {"statusCode":"T",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"S",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"P",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"Z",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"X",
+              "select":"true",
+              "changeThis":"true"}
+         ]
+         
+        },
+
+        {"type":"S",
+         "daysEffective":"9999",
+         "daysBackdate":"9999",
+         "daysExtend":"9999",
+         "belowScale":"100",
+         "belowFuelSC":"100",
+         "belowScaleInTerr":"0",
+         "belowScaleOutTerr":"0",
+         "belowFuelSCInTerr":"0",
+         "belowFuelSCOutTerr":"0",
+         "workFlow":[]
+        },
+        {"type":"B",
+         "daysEffective":"9999",
+         "daysBackdate":"9999",
+         "daysExtend":"9999",
+         "belowScale":"100",
+         "belowFuelSC":"100",
+         "belowScaleInTerr":"0",
+         "belowScaleOutTerr":"0",
+         "belowFuelSCInTerr":"0",
+         "belowFuelSCOutTerr":"0",
+         "workFlow":[
+             {"statusCode":"",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"Q",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"O",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"C",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"M",
+              "select":"true",
+              "changeThis":"true"},
+             
+             {"statusCode":"T",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"S",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"P",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"Z",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"X",
+              "select":"true",
+              "changeThis":"true"}
+         ]
+        },
+        {"type":"R",
+         "daysEffective":"9999",
+         "daysBackdate":"9999",
+         "daysExtend":"9999",
+         "belowScale":"100",
+         "belowFuelSC":"100",
+         "belowScaleInTerr":"0",
+         "belowScaleOutTerr":"0",
+         "belowFuelSCInTerr":"0",
+         "belowFuelSCOutTerr":"0",
+         "workFlow":[
+             {"statusCode":"",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"Q",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"O",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"C",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"M",
+              "select":"true",
+              "changeThis":"true"},
+             
+             {"statusCode":"T",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"S",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"P",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"Z",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"X",
+              "select":"true",
+              "changeThis":"true"}
+         ]
+        }
+    ]
+}

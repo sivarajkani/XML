@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<region headerid="751" name="LANEW" desc="New Orleans, LA"
+		effdat="0001-01-01" client="" />
+	<detail detailid="4008" city="" state="LA" zip="700" county=""
+		splc="" country="US" preclevel="" preccode="" />
+	<detail detailid="4009" city="" state="LA" zip="701" county=""
+		splc="" country="" preclevel="0" preccode="" />
+	<detail detailid="4010" city="" state="LA" zip="703" county=""
+		splc="" country="" preclevel="0" preccode="" />
+</response>
+
+/* Note: the preccode should be the PSSHRTCODE from PQPUBPREC */

@@ -1,0 +1,16 @@
+{
+  "Invalid_Characters" : [
+     {
+      "character" : "\"",
+      "replacement_Character" : "^^^"
+     },
+     {
+      "character" : "<",
+      "replacement_Character" : "***"      
+     },
+     {
+      "character" : ">",
+      "replacement_Character" : "!!!"      
+     }    
+    ]
+}

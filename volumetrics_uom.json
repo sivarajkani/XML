@@ -1,0 +1,50 @@
+{
+  
+    "type": [
+      {
+        "value": "rate",
+        "uom": [
+          {
+            "code": "M",
+            "desc": "MLS",
+            "conversion": "1"
+          },
+          {
+            "code": "F",
+            "desc": "F/R"
+          }
+        ]
+      },
+      {
+        "value": "prop",
+        "uom": [
+          {
+            "code": "D",
+            "desc": "Day",
+            "conversion": "261"
+          },
+          {
+            "code": "W",
+            "desc": "Week",
+            "conversion": "52"
+          },
+          {
+            "code": "B",
+            "desc": "BiWeek",
+            "conversion": "26"
+          },
+          {
+            "code": "M",
+            "desc": "Month",
+            "conversion": "12"
+          },
+          {
+            "code": "Y",
+            "desc": "Year",
+            "conversion": "1"
+          }
+        ]
+      }
+    ]
+  
+}

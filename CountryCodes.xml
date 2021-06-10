@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<countries>
+<countrycd Countrycode="US" Cityid="25243" CityName="JOPLIN" State="MO" Countyid="1" CountyName="JASPER" Zip="64802" Zone="MOJOP" />
+<countrycd Countrycode="CA" Cityid="89374" CityName="TORONTO" State="ON" Countyid="1" CountyName="" Zip="M2P2A8" Zone="ONTOR" />
+<countrycd Countrycode="MX" Cityid="63786" CityName="MEXICO CITY" State="DF" Countyid="1" CountyName=" " Zip="15800" Zone="DF" />
+</countries>

@@ -1,0 +1,8 @@
+<!-- $top$ -->
+Content-type: text/xml
+Expires: 0
+
+<Stats>
+<!-- $statistic$ --> 
+<statistic idpqlansts="<!-- %idpqlansts% -->" idpqstsmst="<!-- %idpqstsmst% -->" stattype="<!-- %stattype% -->" statvalue="<!-- %statvalue% -->" sdesc="<!-- %shortdesc% -->" ldesc="<!-- %longdesc% -->"/>
+</Stats>

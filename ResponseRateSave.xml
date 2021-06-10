@@ -1,0 +1,35 @@
+<!-- $top$ -->
+Content-type: text/xml
+Expires: 0
+
+<Response>
+  <action><!-- %action% --></action>
+  <success><!-- %success% --></success>
+<!-- $error$ -->
+  <Error field="<!-- %field% -->" message="<!-- %message% -->"></Error>  
+<!-- $chargeH$ -->
+<charges>
+<!-- $chargeD$ -->  
+<line>
+<sequence><!-- %sequence% --></sequence>
+<id><!-- %id% --></id>
+<linecode><!-- %linecode% --></linecode>
+<description><!-- %description% --></description>
+<rmssection><!-- %rmssection% --></rmssection>
+<rmsitem><!-- %rmsitem% --></rmsitem>
+<rmsmiles><!-- %rmsmiles% --></rmsmiles>
+<rmsuom><!-- %rmsuom% --></rmsuom>
+<rmsrate><!-- %rmsrate% --></rmsrate>
+<rmsamount><!-- %rmsamount% --></rmsamount>
+<rmsminchg><!-- %rmsminchg% --></rmsminchg>
+<proprate><!-- %proprate% --></proprate>
+<propuom><!-- %propuom% --></propuom>
+<propamt><!-- %propamt% --></propamt>
+<exclchrg><!-- %exclchrg% --></exclchrg>
+<adjustpct><!-- %adjustpct% --></adjustpct>
+<pricingid><!-- %pricingid% --></pricingid>
+</line>
+<!-- $chargeB$ -->
+</charges>    
+<!-- $bottom$ -->  
+</Response>

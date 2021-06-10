@@ -1,0 +1,10 @@
+<!-- $top$ -->
+Content-type: text/xml
+Expires: 0
+
+<response>
+    <success><!-- %success% --></success>
+<!-- $detail$ -->
+    <contact contactid="<!-- %contactid% -->" contactname="<!-- %contactname% -->" prefix="<!-- %prefix% -->" base="<!-- %base% -->" suffix="<!-- %suffix% -->" group="<!-- %group% -->" city="<!-- %city% -->" email="<!-- %email% -->" phone="<!-- %phone% -->" ext="<!-- %ext% -->"</contact>
+<!-- $end$ --> 
+</response>

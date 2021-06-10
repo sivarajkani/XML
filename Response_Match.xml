@@ -1,0 +1,11 @@
+<!-- $top$ -->
+Content-type: text/xml
+Expires: 0
+
+<MatchQuotes>	
+<success><!-- %success% --></success>
+<rows><!-- %rows% --></rows>
+<!-- $match$ -->
+<match 	quotetype="<!-- %quotetype% -->" status="<!-- %status% -->" quotenum="<!-- %quotenum% -->" lanenumber="<!-- %lanenumber% -->" custnumber="<!-- %custnumber% -->" custname="<!-- %custname% -->" origin="<!-- %origin% -->" originzone="<!-- %originzone% -->" destination="<!-- %destination% -->" destinzone="<!-- %destinzone% -->" effdate="<!-- %effdate% -->" expdate="<!-- %expdate% -->" exactmtch="<!-- %exactmtch% -->" rp="<!-- %rp% -->" approvdsts="<!-- %approvdsts% -->" sdesc="<!-- %sdesc% -->"/>                               
+<!-- $bottom$ -->
+</MatchQuotes>

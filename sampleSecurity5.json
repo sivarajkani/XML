@@ -1,0 +1,232 @@
+{
+    "autorityLevel":"5",
+    "save":"true",
+    "email":"true",
+    "massUpdate":"false",
+    "export":"false",
+    "publish":"false",
+    "audit":"false",
+    "quoteType":[
+        {"type":"I",
+         "workFlow":[
+             {"statusCode":"",
+              "select":"true",
+              "changeThis":"false"},
+             
+             {"statusCode":"Q",
+              "select":"false",
+              "changeThis":"false"},
+             
+             {"statusCode":"O",
+              "select":"false",
+              "changeThis":"false"},
+             
+             {"statusCode":"C",
+              "select":"false",
+              "changeThis":"false"},
+             
+             {"statusCode":"M",
+              "select":"false",
+              "changeThis":"false"},
+             
+             {"statusCode":"T",
+              "select":"false",
+              "changeThis":"false"},
+
+             {"statusCode":"S",
+              "select":"false",
+              "changeThis":"false"},
+
+             {"statusCode":"P",
+              "select":"false",
+              "changeThis":"false"},
+
+             {"statusCode":"Z",
+              "select":"false",
+              "changeThis":"false"},
+
+             {"statusCode":"X",
+              "select":"false",
+              "changeThis":"false"}
+         ],
+         "daysEffective":"",
+         "daysBackdate":"",
+         "daysExtend":"",
+         "belowScale":"",
+         "belowFuelSC":"",
+         "belowScaleInTerr":"",
+         "belowScaleOutTerr":"",
+         "belowFuelSCInTerr":"",
+         "belowFuelSCOutTerr":""
+        },
+        {"type":"P",
+         "workFlow":[
+             {"statusCode":"",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"Q",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"O",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"C",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"M",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"T",
+              "select":"true",
+              "changeThis":"false"},
+
+             {"statusCode":"S",
+              "select":"false",
+              "changeThis":"false"},
+
+             {"statusCode":"P",
+              "select":"false",
+              "changeThis":"false"},
+
+             {"statusCode":"Z",
+              "select":"false",
+              "changeThis":"false"},
+
+             {"statusCode":"X",
+              "select":"false",
+              "changeThis":"false"}
+         ],
+         "daysEffective":"14",
+         "daysBackdate":"0",
+         "daysExtend":"0",
+         "belowScale":"0",
+         "belowFuelSC":"0",
+         "belowScaleInTerr":"25",
+         "belowScaleOutTerr":"0",
+         "belowFuelSCInTerr":"0",
+         "belowFuelSCOutTerr":"0"
+        },
+
+        {"type":"S",
+         "workFlow":[],
+         "daysEffective":"14",
+         "daysBackdate":"0",
+         "daysExtend":"0",
+         "belowScale":"0",
+         "belowFuelSC":"0",
+         "belowScaleInTerr":"40",
+         "belowScaleOutTerr":"0",
+         "belowFuelSCInTerr":"20",
+         "belowFuelSCOutTerr":"0"
+        },
+        {"type":"B",
+         "workFlow":[
+             {"statusCode":"",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"Q",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"O",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"C",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"M",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"T",
+              "select":"true",
+              "changeThis":"false"},
+
+             {"statusCode":"S",
+              "select":"false",
+              "changeThis":"false"},
+
+             {"statusCode":"P",
+              "select":"false",
+              "changeThis":"false"},
+
+             {"statusCode":"Z",
+              "select":"false",
+              "changeThis":"false"},
+
+             {"statusCode":"X",
+              "select":"false",
+              "changeThis":"false"}
+         ],
+         "daysEffective":"14",
+         "daysBackdate":"0",
+         "daysExtend":"0",
+         "belowScale":"0",
+         "belowFuelSC":"0",
+         "belowScaleInTerr":"25",
+         "belowScaleOutTerr":"0",
+         "belowFuelSCInTerr":"0",
+         "belowFuelSCOutTerr":"0"
+        },
+        {"type":"R",
+         "workFlow":[
+             {"statusCode":"",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"Q",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"O",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"C",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"M",
+              "select":"true",
+              "changeThis":"true"},
+
+             {"statusCode":"T",
+              "select":"true",
+              "changeThis":"false"},
+
+             {"statusCode":"S",
+              "select":"false",
+              "changeThis":"false"},
+
+             {"statusCode":"P",
+              "select":"false",
+              "changeThis":"false"},
+
+             {"statusCode":"Z",
+              "select":"false",
+              "changeThis":"false"},
+
+             {"statusCode":"X",
+              "select":"false",
+              "changeThis":"false"}
+         ],
+         "daysEffective":"14",
+         "daysBackdate":"0",
+         "daysExtend":"0",
+         "belowScale":"0",
+         "belowFuelSC":"0",
+         "belowScaleInTerr":"25",
+         "belowScaleOutTerr":"0",
+         "belowFuelSCInTerr":"0",
+         "belowFuelSCOutTerr":"0"
+        }
+    ]
+}
